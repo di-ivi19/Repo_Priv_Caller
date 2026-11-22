@@ -7,6 +7,6 @@ on:
 jobs:
   call-own-public:
     name: test
-    uses: di-ivi19/Repo_Pub_Target/.github/workflows/reusable.yaml@master
+    uses: di-ivi19/Repo_Pub_Target/.github/workflows/reusable.yaml@main
     with:
       info: "Секретный проект запущен успешно"
