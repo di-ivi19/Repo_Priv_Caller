@@ -2,11 +2,11 @@ name: Private Project CI
 
 on:
   push:
-
+    branches: [main]
 
 jobs:
   call-own-public:
     name: test
-    uses: di-ivi19/Repo_Pub_Target/.github/workflows/reusable.yaml@main
+    uses: di-ivi19/Repo_Pub_Target/.github/workflows/reusable.yml@main
     with:
       info: "Секретный проект запущен успешно"
